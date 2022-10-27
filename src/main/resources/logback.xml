@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration debug="true">
+
+    <property name="LOGS" value="./logs" />
+
+    <!--prints error log to console-->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>
+             %d{HH:mm:ss:SSS} [%thread] %-5level %logger{40} - %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+
+
+    <appender name="RfAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>
+            ${LOGS}/ProjectOne-logger.log
+        </file>
+        <encoder>
+            <Pattern>
+                %d %p %C{1.} [%t] %m%n
+            </Pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>
+                ${LOGS}/archived/ProjectOne-logger-%d{yyyy-MM-dd}.%i.log
+            </fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+               <maxFileSize>
+                   10MB
+               </maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+    </appender>
+
+    <!-- fatal, error, warning, info, debug, trace all, off-->
+
+    <root level="INFO" >
+        <appender-ref ref="RfAppender" />
+    </root>
+
+    <logger name="com.revature" level="INFO" additivity="false">
+<!--        <appender-ref ref="STOUT" />-->
+        <appender-ref ref="RfAppender" />
+    </logger>
+
+</configuration>
+
+
+
+<!--
+
+PatternLayout recognizes conversion words with a %, so the conversions in our pattern generate
+
+%d{HH:mm:ss.SSS} – a timestamp with hours, minutes, seconds and milliseconds
+[%thread] – the thread name generating the log message, surrounded by square brackets
+%-5level – the level of the logging event, padded to 5 characters
+%logger{36} – the name of the logger, truncated to 35 characters
+%msg%n – the log messages followed by the platform dependent line separator charachter
+
+-->

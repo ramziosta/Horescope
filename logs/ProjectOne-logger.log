@@ -1,0 +1,304 @@
+2022-10-27 13:14:52,091 INFO io.javalin.core.util.JavalinLogger [main] 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2022-10-27 13:14:52,110 INFO org.eclipse.jetty.util.log.Log [main] Logging initialized @927ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-10-27 13:14:52,111 INFO io.javalin.core.util.JavalinLogger [main] Starting Javalin ...
+2022-10-27 13:14:52,150 INFO io.javalin.core.util.JavalinLogger [main] You are running Javalin 4.6.4 (released July 8, 2022. Your Javalin version is 111 days old. Consider checking for a newer version.).
+2022-10-27 13:14:52,568 INFO io.javalin.core.util.JavalinLogger [main] Listening on http://localhost:8082/
+2022-10-27 13:14:52,568 INFO io.javalin.core.util.JavalinLogger [main] Javalin started in 457ms \o/
+2022-10-27 16:20:49,720 INFO io.javalin.core.util.JavalinLogger [main] 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2022-10-27 16:20:49,732 INFO org.eclipse.jetty.util.log.Log [main] Logging initialized @680ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-10-27 16:20:49,733 INFO io.javalin.core.util.JavalinLogger [main] Starting Javalin ...
+2022-10-27 16:20:49,758 INFO io.javalin.core.util.JavalinLogger [main] You are running Javalin 4.6.4 (released July 8, 2022. Your Javalin version is 111 days old. Consider checking for a newer version.).
+2022-10-27 16:20:49,983 INFO io.javalin.core.util.JavalinLogger [main] Listening on http://localhost:8082/
+2022-10-27 16:20:49,984 INFO io.javalin.core.util.JavalinLogger [main] Javalin started in 251ms \o/
+2022-10-27 16:25:39,927 ERROR com.revature.repos.UserRepo [JettyServerThreadPool-25] The column index is out of range: 1, number of columns: 0.
+2022-10-27 16:26:13,302 ERROR com.revature.repos.UserRepo [JettyServerThreadPool-26] The column index is out of range: 1, number of columns: 0.
+2022-10-27 16:27:05,696 ERROR com.revature.repos.UserRepo [JettyServerThreadPool-13] The column index is out of range: 1, number of columns: 0.
+2022-10-27 16:28:19,459 ERROR com.revature.repos.UserRepo [JettyServerThreadPool-17] The column index is out of range: 1, number of columns: 0.
+2022-10-27 16:28:25,301 ERROR com.revature.repos.UserRepo [JettyServerThreadPool-12] The column index is out of range: 1, number of columns: 0.
+2022-10-27 16:29:50,380 ERROR com.revature.repos.UserRepo [JettyServerThreadPool-13] The column index is out of range: 1, number of columns: 0.
+2022-10-27 16:30:12,728 INFO io.javalin.core.util.JavalinLogger [main] 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2022-10-27 16:30:12,740 INFO org.eclipse.jetty.util.log.Log [main] Logging initialized @653ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-10-27 16:30:12,741 INFO io.javalin.core.util.JavalinLogger [main] Starting Javalin ...
+2022-10-27 16:30:12,765 INFO io.javalin.core.util.JavalinLogger [main] You are running Javalin 4.6.4 (released July 8, 2022. Your Javalin version is 111 days old. Consider checking for a newer version.).
+2022-10-27 16:30:12,976 INFO io.javalin.core.util.JavalinLogger [main] Listening on http://localhost:8082/
+2022-10-27 16:30:12,976 INFO io.javalin.core.util.JavalinLogger [main] Javalin started in 236ms \o/
+2022-10-27 16:30:17,396 ERROR com.revature.repos.UserRepo [JettyServerThreadPool-17] The column index is out of range: 1, number of columns: 0.
+2022-10-27 16:33:23,752 ERROR com.revature.repos.UserRepo [JettyServerThreadPool-26] The column index is out of range: 1, number of columns: 0.
+2022-10-27 16:33:39,204 INFO io.javalin.core.util.JavalinLogger [main] 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2022-10-27 16:33:39,220 INFO org.eclipse.jetty.util.log.Log [main] Logging initialized @749ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-10-27 16:33:39,221 INFO io.javalin.core.util.JavalinLogger [main] Starting Javalin ...
+2022-10-27 16:33:39,249 INFO io.javalin.core.util.JavalinLogger [main] You are running Javalin 4.6.4 (released July 8, 2022. Your Javalin version is 111 days old. Consider checking for a newer version.).
+2022-10-27 16:33:39,498 INFO io.javalin.core.util.JavalinLogger [main] Listening on http://localhost:8082/
+2022-10-27 16:33:39,498 INFO io.javalin.core.util.JavalinLogger [main] Javalin started in 278ms \o/
+2022-10-27 16:33:44,622 ERROR com.revature.repos.UserRepo [JettyServerThreadPool-25] The column index is out of range: 1, number of columns: 0.
+2022-10-27 16:35:55,335 INFO io.javalin.core.util.JavalinLogger [main] 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2022-10-27 16:35:55,347 INFO org.eclipse.jetty.util.log.Log [main] Logging initialized @645ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-10-27 16:35:55,348 INFO io.javalin.core.util.JavalinLogger [main] Starting Javalin ...
+2022-10-27 16:35:55,372 INFO io.javalin.core.util.JavalinLogger [main] You are running Javalin 4.6.4 (released July 8, 2022. Your Javalin version is 111 days old. Consider checking for a newer version.).
+2022-10-27 16:35:55,581 INFO io.javalin.core.util.JavalinLogger [main] Listening on http://localhost:8082/
+2022-10-27 16:35:55,581 INFO io.javalin.core.util.JavalinLogger [main] Javalin started in 234ms \o/
+2022-10-27 16:36:00,969 ERROR com.revature.repos.UserRepo [JettyServerThreadPool-25] The column index is out of range: 1, number of columns: 0.
+2022-10-27 16:40:51,156 INFO io.javalin.core.util.JavalinLogger [main] 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2022-10-27 16:40:51,169 INFO org.eclipse.jetty.util.log.Log [main] Logging initialized @696ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-10-27 16:40:51,170 INFO io.javalin.core.util.JavalinLogger [main] Starting Javalin ...
+2022-10-27 16:40:51,198 INFO io.javalin.core.util.JavalinLogger [main] You are running Javalin 4.6.4 (released July 8, 2022. Your Javalin version is 111 days old. Consider checking for a newer version.).
+2022-10-27 16:40:51,454 INFO io.javalin.core.util.JavalinLogger [main] Listening on http://localhost:8082/
+2022-10-27 16:40:51,454 INFO io.javalin.core.util.JavalinLogger [main] Javalin started in 284ms \o/
+2022-10-27 16:40:55,877 ERROR com.revature.repos.UserRepo [JettyServerThreadPool-25] No value specified for parameter 7.
+2022-10-27 16:42:07,750 INFO io.javalin.core.util.JavalinLogger [main] 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2022-10-27 16:42:07,764 INFO org.eclipse.jetty.util.log.Log [main] Logging initialized @659ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-10-27 16:42:07,765 INFO io.javalin.core.util.JavalinLogger [main] Starting Javalin ...
+2022-10-27 16:42:07,794 INFO io.javalin.core.util.JavalinLogger [main] You are running Javalin 4.6.4 (released July 8, 2022. Your Javalin version is 111 days old. Consider checking for a newer version.).
+2022-10-27 16:42:08,035 INFO io.javalin.core.util.JavalinLogger [main] Listening on http://localhost:8082/
+2022-10-27 16:42:08,035 INFO io.javalin.core.util.JavalinLogger [main] Javalin started in 270ms \o/
+2022-10-27 16:42:16,300 INFO io.javalin.core.util.JavalinLogger [main] 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2022-10-27 16:42:16,313 INFO org.eclipse.jetty.util.log.Log [main] Logging initialized @663ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-10-27 16:42:16,314 INFO io.javalin.core.util.JavalinLogger [main] Starting Javalin ...
+2022-10-27 16:42:16,342 INFO io.javalin.core.util.JavalinLogger [main] You are running Javalin 4.6.4 (released July 8, 2022. Your Javalin version is 111 days old. Consider checking for a newer version.).
+2022-10-27 16:42:16,585 INFO io.javalin.core.util.JavalinLogger [main] Listening on http://localhost:8082/
+2022-10-27 16:42:16,585 INFO io.javalin.core.util.JavalinLogger [main] Javalin started in 272ms \o/
+2022-10-27 16:42:22,182 ERROR com.revature.repos.UserRepo [JettyServerThreadPool-25] ERROR: relation "users" does not exist
+  Position: 13
+2022-10-27 16:43:35,099 INFO io.javalin.core.util.JavalinLogger [main] 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2022-10-27 16:43:35,114 INFO org.eclipse.jetty.util.log.Log [main] Logging initialized @679ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-10-27 16:43:35,115 INFO io.javalin.core.util.JavalinLogger [main] Starting Javalin ...
+2022-10-27 16:43:35,140 INFO io.javalin.core.util.JavalinLogger [main] You are running Javalin 4.6.4 (released July 8, 2022. Your Javalin version is 111 days old. Consider checking for a newer version.).
+2022-10-27 16:43:35,349 INFO io.javalin.core.util.JavalinLogger [main] Listening on http://localhost:8082/
+2022-10-27 16:43:35,349 INFO io.javalin.core.util.JavalinLogger [main] Javalin started in 235ms \o/
+2022-10-27 16:43:38,888 ERROR com.revature.repos.UserRepo [JettyServerThreadPool-18] ERROR: column "birthday" is of type date but expression is of type character varying
+  Hint: You will need to rewrite or cast the expression.
+  Position: 132
+2022-10-27 16:49:29,169 WARN io.javalin.core.util.JavalinLogger [JettyServerThreadPool-27] Uncaught exception
+com.fasterxml.jackson.core.JsonParseException: Unexpected character ('-' (code 45)): was expecting comma to separate Object entries
+ at [Source: (String)"
+     {
+        "firstname":"crazy",
+        "lastname":"woman",
+        "email":"crazy@gmail.com",
+        "password":"password",
+        "horoscope":"taurus",
+        "birthday":1973-04-28
+
+
+    }
+"; line: 8, column: 25]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:659)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipComma(ReaderBasedJsonParser.java:2382)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextFieldName(ReaderBasedJsonParser.java:947)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:320)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:176)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3629)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3597)
+	at io.javalin.plugin.json.JavalinJackson.fromJsonString(JavalinJackson.kt:37)
+	at io.javalin.http.Context.bodyAsClass(Context.kt:113)
+	at com.revature.controllers.UserController.lambda$new$0(UserController.java:21)
+	at io.javalin.core.security.SecurityUtil.noopAccessManager(SecurityUtil.kt:20)
+	at io.javalin.http.JavalinServlet.addHandler$lambda-0(JavalinServlet.kt:96)
+	at io.javalin.http.JavalinServlet$lifecycle$2$1$1.invoke(JavalinServlet.kt:43)
+	at io.javalin.http.JavalinServlet$lifecycle$2$1$1.invoke(JavalinServlet.kt:43)
+	at io.javalin.http.JavalinServletHandler.executeNextTask(JavalinServletHandler.kt:99)
+	at io.javalin.http.JavalinServletHandler.queueNextTaskOrFinish$lambda-1(JavalinServletHandler.kt:85)
+	at java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:995)
+	at java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2137)
+	at io.javalin.http.JavalinServletHandler.queueNextTaskOrFinish$javalin(JavalinServletHandler.kt:85)
+	at io.javalin.http.JavalinServletHandler.executeNextTask$lambda-11$lambda-10(JavalinServletHandler.kt:119)
+	at java.util.concurrent.CompletableFuture.uniApply(CompletableFuture.java:616)
+	at java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:628)
+	at java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:1996)
+	at io.javalin.http.JavalinServletHandler.executeNextTask(JavalinServletHandler.kt:119)
+	at io.javalin.http.JavalinServletHandler.queueNextTaskOrFinish$lambda-1(JavalinServletHandler.kt:85)
+	at java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:995)
+	at java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2137)
+	at io.javalin.http.JavalinServletHandler.queueNextTaskOrFinish$javalin(JavalinServletHandler.kt:85)
+	at io.javalin.http.JavalinServlet.service(JavalinServlet.kt:89)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.javalin.jetty.JavalinJettyServlet.service(JavalinJettyServlet.kt:58)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:554)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at io.javalin.jetty.JettyServer$start$wsAndHttpHandler$1.doHandle(JettyServer.kt:52)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:505)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1355)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.StatisticsHandler.handle(StatisticsHandler.java:181)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.lang.Thread.run(Thread.java:750)
+2022-10-27 16:50:11,660 ERROR com.revature.repos.UserRepo [JettyServerThreadPool-19] ERROR: column "birthday" is of type date but expression is of type character varying
+  Hint: You will need to rewrite or cast the expression.
+  Position: 132
+2022-10-27 16:53:09,628 INFO io.javalin.core.util.JavalinLogger [main] 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2022-10-27 16:53:09,641 INFO org.eclipse.jetty.util.log.Log [main] Logging initialized @636ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-10-27 16:53:09,642 INFO io.javalin.core.util.JavalinLogger [main] Starting Javalin ...
+2022-10-27 16:53:09,668 INFO io.javalin.core.util.JavalinLogger [main] You are running Javalin 4.6.4 (released July 8, 2022. Your Javalin version is 111 days old. Consider checking for a newer version.).
+2022-10-27 16:53:09,912 INFO io.javalin.core.util.JavalinLogger [main] Listening on http://localhost:8082/
+2022-10-27 16:53:09,913 INFO io.javalin.core.util.JavalinLogger [main] Javalin started in 272ms \o/
+2022-10-27 17:21:31,118 INFO io.javalin.core.util.JavalinLogger [main] 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2022-10-27 17:21:31,130 INFO org.eclipse.jetty.util.log.Log [main] Logging initialized @715ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-10-27 17:21:31,131 INFO io.javalin.core.util.JavalinLogger [main] Starting Javalin ...
+2022-10-27 17:21:31,160 INFO io.javalin.core.util.JavalinLogger [main] You are running Javalin 4.6.4 (released July 8, 2022. Your Javalin version is 111 days old. Consider checking for a newer version.).
+2022-10-27 17:21:31,451 INFO io.javalin.core.util.JavalinLogger [main] Listening on http://localhost:8082/
+2022-10-27 17:21:31,451 INFO io.javalin.core.util.JavalinLogger [main] Javalin started in 320ms \o/
+2022-10-27 17:22:41,838 INFO io.javalin.core.util.JavalinLogger [main] 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2022-10-27 17:22:41,850 INFO org.eclipse.jetty.util.log.Log [main] Logging initialized @646ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-10-27 17:22:41,850 INFO io.javalin.core.util.JavalinLogger [main] Starting Javalin ...
+2022-10-27 17:22:41,875 INFO io.javalin.core.util.JavalinLogger [main] You are running Javalin 4.6.4 (released July 8, 2022. Your Javalin version is 111 days old. Consider checking for a newer version.).
+2022-10-27 17:22:42,094 INFO io.javalin.core.util.JavalinLogger [main] Listening on http://localhost:8082/
+2022-10-27 17:22:42,095 INFO io.javalin.core.util.JavalinLogger [main] Javalin started in 245ms \o/
+2022-10-27 17:25:27,377 INFO io.javalin.core.util.JavalinLogger [main] 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2022-10-27 17:25:27,389 INFO org.eclipse.jetty.util.log.Log [main] Logging initialized @682ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-10-27 17:25:27,390 INFO io.javalin.core.util.JavalinLogger [main] Starting Javalin ...
+2022-10-27 17:25:27,416 INFO io.javalin.core.util.JavalinLogger [main] You are running Javalin 4.6.4 (released July 8, 2022. Your Javalin version is 111 days old. Consider checking for a newer version.).
+2022-10-27 17:25:27,626 INFO io.javalin.core.util.JavalinLogger [main] Listening on http://localhost:8082/
+2022-10-27 17:25:27,627 INFO io.javalin.core.util.JavalinLogger [main] Javalin started in 238ms \o/
+2022-10-27 17:27:37,951 INFO io.javalin.core.util.JavalinLogger [main] 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2022-10-27 17:27:37,964 INFO org.eclipse.jetty.util.log.Log [main] Logging initialized @650ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-10-27 17:27:37,964 INFO io.javalin.core.util.JavalinLogger [main] Starting Javalin ...
+2022-10-27 17:27:37,989 INFO io.javalin.core.util.JavalinLogger [main] You are running Javalin 4.6.4 (released July 8, 2022. Your Javalin version is 111 days old. Consider checking for a newer version.).
+2022-10-27 17:27:38,215 INFO io.javalin.core.util.JavalinLogger [main] Listening on http://localhost:8082/
+2022-10-27 17:27:38,216 INFO io.javalin.core.util.JavalinLogger [main] Javalin started in 252ms \o/
+2022-10-27 17:29:06,531 INFO io.javalin.core.util.JavalinLogger [main] 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2022-10-27 17:29:06,543 INFO org.eclipse.jetty.util.log.Log [main] Logging initialized @632ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-10-27 17:29:06,544 INFO io.javalin.core.util.JavalinLogger [main] Starting Javalin ...
+2022-10-27 17:29:06,569 INFO io.javalin.core.util.JavalinLogger [main] You are running Javalin 4.6.4 (released July 8, 2022. Your Javalin version is 111 days old. Consider checking for a newer version.).
+2022-10-27 17:29:06,791 INFO io.javalin.core.util.JavalinLogger [main] Listening on http://localhost:8082/
+2022-10-27 17:29:06,791 INFO io.javalin.core.util.JavalinLogger [main] Javalin started in 247ms \o/
