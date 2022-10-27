@@ -197,7 +197,7 @@ public class UserRepo implements CRUDDaoInterface<User> {
 
         try {
 
-            String sql = "UPDATE horeoscope SET login = false WHERE email = ? AND pass_word = ?";
+            String sql = "UPDATE horoscope SET login = false WHERE email = ? AND pass_word = ?";
 
             PreparedStatement pstmt = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
             pstmt.setString(1, user.getEmail());
@@ -213,7 +213,7 @@ public class UserRepo implements CRUDDaoInterface<User> {
                 user.setfirstname(rs.getString("first_name"));
                 user.setlastname(rs.getString("last_name"));
                 user.setEmail(rs.getString("email"));
-                user.setPassword(rs.getString("pass_word"));
+         
             }
 
             return user;

@@ -27,6 +27,7 @@ public class User {
         this.password = password;
         this.horoscope = horoscope;
         this.birthday = birthday;
+        this.isLogin = false;
 
     }
 
@@ -42,7 +43,7 @@ public class User {
         this.horoscope = horoscope;
         this.birthday = birthday;
         this.mood = mood;
-        this.isLogin = isLogin;
+        this.isLogin = false;
     }
 
     // ! METHODS
@@ -60,8 +61,12 @@ public class User {
         }
     }
 
+    public void setLogin(){
+        this.isLogin = true;
+    }
+
     // Logout
-    public void logout() {
+    public void setLogout() {
         this.isLogin = false;
 
     }
