@@ -8,19 +8,19 @@
   </head>
   <body>
     <h1 id="welcome-label"></h1>
-
+    <button id="logout" onclick="logout()">Log out</button>
+    <!-- >log out should clear the local storage  -->
+    <hr />
     <p>Hello <span id="name"></span></p>
     <p>Welcome to your daily horoscope!</p>
-    <p>Today's horoscope for your sun sign<span id="sign"></span></p>
-    <p id="horoscope">--horoscope goes here--</p>
-    <button id="submit-button">Get Your Mood!</button>
+    <p>Today's horoscope for your sun sign: <span id="sign"></span></p>
+    <h3 id="horoscope">--horoscope goes here--</h3>
+    <h4 >Todays Mood: <span id="mood">--mood goes here--</span></h4>
 
-    <p id="card-button">
-      <button id="view-all">View All Tickets!</button>
-    </p>
+    <!-- <p id="card-button">
+    <button id="view-all">View All Tickets!</button> </p> -->
 
-    <!-- add log out button  -->
-    log out should clear the local storage
+
     <script src="./home.js"></script>
   </body>
 </html>

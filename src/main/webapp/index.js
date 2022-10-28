@@ -42,7 +42,7 @@ let json = JSON.stringify(loginInfo);
 
 try {
 
-    const raw_response = await fetch(`http://localhost:8081/login`,{
+    const raw_response = await fetch(`http://localhost:8082/login`,{
         method:"PUT", // we hdd the http to be executed
         body:json
     });
@@ -62,7 +62,7 @@ try {
 
     setTimeout( ()=>{
         window.location.replace("home.html")
-    }, 3000 )
+    }, 1000 )
 
 
 }catch(error){

@@ -3,82 +3,86 @@ currentUser = JSON.parse(currentUser);
 console.log(currentUser);
 
 let welcomeLabel = document.getElementById("welcome-label");
-welcomeLabel.innerHTML = `Welcome ${currentUser.firstname}! Submit a new Reimbursiment ticket!`;
+welcomeLabel.innerHTML = `Welcome ${currentUser.firstname}! Today holds a new adventure!`;
+let username = document.getElementById("name");
+username.innerHTML = currentUser.firstname + " " + currentUser.lastname;
 
-let submitButton = document.getElementById("submit-button");
+const api_url = `http://sandipbgt.com/theastrologer/api/horoscope/${currentUser.horoscope}/today`;
 
-submitButton.addEventListener("click", async (event) => {
-  event.preventDefault();
+async function getapi(url) {
+    
+  // Storing response
+  const response = await fetch(url);
+  
+  // Storing data in form of JSON
+  var data = await response.json();
+  console.log(data);
 
-  let amountText = document.getElementById("amount").value;
-  let descriptionText = document.getElementById("description").value;
-  let employeeId = document.getElementById("employeeId").value;
+  if(!response.ok){
+    // throw new Error(response.status);
+    alert(`Error Status: ${response.status}`)
+}
+  show(data);
+}
+// Calling that async function
+getapi(api_url);
 
-  // console.log(`amount: ${amountText} - description: ${descriptionText}`)
+function show(data) {
+  let sign = document.getElementById("sign");
+  sign.innerHTML = data.sunsign;
+  let mood = document.getElementById("mood");
+  mood.innerHTML = data.meta.mood;
+  let dailyHoroscope = document.getElementById("horoscope");
+  dailyHoroscope.innerHTML = data.horoscope;
+}
 
-  let ticketObject = {
-    amount: amountText,
-    description: descriptionText,
-    employee_id: employeeId,
-  };
+async function logout(){
 
-  let json = JSON.stringify(ticketObject);
-
-  try {
-    let response = await fetch(`http://localhost:8081/ticket`, {
-      method: "POST",
-      body: json,
-    });
-
-    if (!response.ok) {
-      throw new Error(response.status);
-    }
-
-    alert("You're ticket was created!");
-    let amountBox = document.getElementById("amount");
-    amountBox.value = "";
-    let descriptionBox = document.getElementById("description");
-    descriptionBox.value = "";
-  } catch (error) {
-    console.log(error);
+  let email1 = currentUser.email;
+  let password1 = currentUser.password;
+  
+  
+  // creating an JSON Object using the inout from the user
+  // note that the keys for our objects must match the 
+  // fields in our Models in the backend
+  
+  let logoutInfo = {
+      email: email1,
+      password:password1
   }
-});
-
-let viewAllButton = document.getElementById("view-all");
-viewAllButton.addEventListener("click", async (event) => {
-  event.preventDefault();
-
+  
+  // turn our JSON object literal into JSON
+  
+  let json = JSON.stringify(logoutInfo);
+  
+  
   try {
-    // fetch send a get request by default unless directed to do otherwise
-    let response = await fetch(`http://localhost:8081/tickets`);
-
-    if (!response.ok) {
-      throw new Error(response.status);
-    }
-
-    response.json().then((data) => {
-      // create a helper function that will use the json data from the request to manipulate the dom
-      // console.log(data); print the array we get back from our http request
-
-      addTicketsToPage(data);
-      console.log(data);
-    });
-  } catch (error) {
-    console.log(error);
-  }
-});
-
-function addTicketsToPage(ticketsArray) {
-  let ticketButtonP = document.getElementById("ticket-button");
-
-  let br = document.createElement("br");
-
-  ticketButtonP.append(br);
-  ticketButtonP.append(br);
-
-  for (let ticket of ticketsArray) {
-    let ticketElement = document.createElement("h3");
-    ticketElement.innerHTML = `amount: ${ticket.amount} - description: ${ticket.description}, created by ${ticket.employee_id}`;
-    ticketButtonP.appendChild(ticketElement);
+  
+      const raw_response = await fetch(`http://localhost:8082/logout`,{
+          method:"PUT", // we hdd the http to be executed
+          body:json
+      });
+  
+      if(!raw_response.ok){
+          throw new Error(raw_response.status)
+      }
+  
+      raw_response.json().then( (data) => {
+            this.currentUser = null;
+            localStorage.clear();
+          
+      })
+  
+      setTimeout( ()=>{
+          window.location.replace("index.html")
+      }, 1000 )
+  
+  
+  }catch(error){
+      console.log(error)
   }
 }
+
+
+
+

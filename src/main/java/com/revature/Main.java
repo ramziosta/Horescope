@@ -15,17 +15,17 @@ public class Main {
         UserService userService = new UserService();
         UserController userController = new UserController(userService);
 
-        // TicketService ticketService = new TicketService();
-        // TicketController ticketController = new TicketController(ticketService);
-
+        app.post("/user", userController.createNewUser);
+        app.put("/login",userController.login);
+        app.put("/logout",userController.logout);
         
         app.get("/users", userController.getAllUsers);
         app.get("/user/{id}", userController.getUserById);
-        app.post("/user", userController.createNewUser);
         app.put("/user", userController.updateUser);
         app.delete("/user", userController.deleteUser);
-        app.put("/login",userController.login);
-        app.put("/logout",userController.logout);
+
+        // TicketService ticketService = new TicketService();
+        // TicketController ticketController = new TicketController(ticketService);
 
         // app.get("tickets", ticketController.getAllTickets);
         // app.get("/tickets/pending", ticketController.getAllPendingTickets);

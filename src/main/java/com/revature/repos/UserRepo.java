@@ -208,10 +208,10 @@ public class UserRepo implements CRUDDaoInterface<User> {
             ResultSet rs = pstmt.getGeneratedKeys();
 
             while (rs.next()) {
-                user.setEmail(rs.getString("email"));
+              
                 user.setId(rs.getInt("id"));
-                user.setfirstname(rs.getString("first_name"));
-                user.setlastname(rs.getString("last_name"));
+                user.setfirstname(rs.getString("firstname"));
+                user.setlastname(rs.getString("lastname"));
                 user.setEmail(rs.getString("email"));
          
             }

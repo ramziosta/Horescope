@@ -17,23 +17,25 @@ registerButton.addEventListener("click", async (event) => {
 
   let password = document.getElementById("password").value;
 
+  let horoscope = document.getElementById("horoscope").value;
+
   let birthday = document.getElementById("birthday").value;
   console.log(birthday);
-  let horoscope = document.getElementById("horoscope").value;
+
 
   let registerationInfo = {
     firstname: firstname,
     lastname: lastname,
     email: email,
     password: password,
-    birthday: birthday,
     horoscope: horoscope,
+    birthday: birthday,
   };
 
   let json = JSON.stringify(registerationInfo);
 
   try {
-    const raw_response = await fetch(`http://localhost:8082/horoscope`, {
+    const raw_response = await fetch(`http://localhost:8082/user`, {
       method: "POST",
       body: json,
     });
@@ -43,22 +45,22 @@ registerButton.addEventListener("click", async (event) => {
     }
 
     alert("User was created!");
-    let firstnameBox = document.getElementById("firstname");
-    firstnameBox.value = "";
-    let lastnameBox = document.getElementById("lastname");
-    lastnameBox.value = "";
-    let emailBox = document.getElementById("email");
-    emailBox.value = "";
-    let passwordBox = document.getElementById("password");
-    passwordBox.value = "";
-    let birthdayBox = document.getElementById("birthday");
-    birthdayBox.value = "";
-    let horoscopeBox = document.getElementById("horoscope");
-    horoscopeBox.value = "";
+    let firstname = document.getElementById("firstname");
+    firstname.value = "";
+    let lastname = document.getElementById("lastname");
+    lastname.value = "";
+    let email = document.getElementById("email");
+    email.value = "";
+    let password = document.getElementById("password");
+    password.value = "";
+    let horoscope = document.getElementById("horoscope");
+    horoscope.value = "";
+    let birthday = document.getElementById("birthday");
+    birthday.value = "";
 
     setTimeout(() => {
-      window.location.replace("home.html");
-    }, 3000);
+      window.location.replace("index.html");
+    }, 1000);
   } catch (err) {
     console.log(err);
   }
